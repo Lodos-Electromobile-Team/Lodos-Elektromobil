@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/bg.png</file>
+        <file>res/boss.png</file>
+        <file>res/btnAyarlar.png</file>
+        <file>res/btnAyarlarSelected.png</file>
+        <file>res/btnFar.png</file>
+        <file>res/btnFarSelected.png</file>
+        <file>res/btnGeri.png</file>
+        <file>res/btnGeriSelected.png</file>
+        <file>res/btnKorna.png</file>
+        <file>res/btnKornaSelected.png</file>
+        <file>res/button.png</file>
+        <file>res/button-clicked.png</file>
+        <file>res/dortlu.png</file>
+        <file>res/dortluHovered.png</file>
+        <file>res/sagSinyal.png</file>
+        <file>res/sagSinyalActivated.png</file>
+        <file>res/sagSinyalHovered.png</file>
+        <file>res/solSinyal.png</file>
+        <file>res/solSinyalActivated.png</file>
+        <file>res/solSinyalHovered.png</file>
+        <file>res/btnBluetooth.png</file>
+        <file>res/btnBluetoothSelected.png</file>
+        <file>res/btnBatteryStatistic.png</file>
+        <file>res/btnBatteryStatisticSelected.png</file>
+        <file>res/69-694521_transparent-blur-png-transparent-background-transparent-blur-text.png</file>
+        <file>res/blur-bg.png</file>
+    </qresource>
+</RCC>

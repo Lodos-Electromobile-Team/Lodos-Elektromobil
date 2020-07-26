@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/parkpilot/aracUsttenBeyaz.png</file>
+        <file>res/parkpilot/aracUsttenGri.png</file>
+        <file>res/parkpilot/aracUsttenKirmizi.png</file>
+        <file>res/parkpilot/aracUsttenMavi.png</file>
+        <file>res/parkpilot/aracUsttenSari.png</file>
+        <file>res/parkpilot/aracUsttenYesil.png</file>
+        <file>res/parkpilot/sag1.png</file>
+        <file>res/parkpilot/sag2.png</file>
+        <file>res/parkpilot/sag3.png</file>
+        <file>res/parkpilot/sag4.png</file>
+        <file>res/parkpilot/sag5.png</file>
+        <file>res/parkpilot/sol1.png</file>
+        <file>res/parkpilot/sol2.png</file>
+        <file>res/parkpilot/sol3.png</file>
+        <file>res/parkpilot/sol4.png</file>
+        <file>res/parkpilot/sol5.png</file>
+        <file>res/parkpilot/solKirmizi1.png</file>
+        <file>res/parkpilot/solKirmizi2.png</file>
+        <file>res/parkpilot/solKirmizi3.png</file>
+        <file>res/parkpilot/solKirmizi4.png</file>
+        <file>res/parkpilot/solKirmizi5.png</file>
+        <file>res/parkpilot/sagKirmizi1.png</file>
+        <file>res/parkpilot/sagKirmizi2.png</file>
+        <file>res/parkpilot/sagKirmizi3.png</file>
+        <file>res/parkpilot/sagKirmizi4.png</file>
+        <file>res/parkpilot/sagKirmizi5.png</file>
+    </qresource>
+</RCC>

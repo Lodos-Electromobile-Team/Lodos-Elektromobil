@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#ledHizGosterge{
+	background-color:None;
+}
+#ledHizGosterge:hover{
+	border: 2px solid red;
+  border-radius: 25px;
+	background-color:gray;
+}
+
+#centralwidget{
+	background-image: url(:/res/bg.png);
+	background-repeat: no-repeat;
+	background-color: rgb(0, 0, 0);
+}
+
+#btnSagSinyal{
+	background-image: url(:/res/sagSinyal.png);
+	background-color:transparent;
+}
+
+#btnSagSinyal:hover{
+	background-image: url(:/res/sagSinyalHovered.png);
+	background-color:transparent;
+}
+
+#btnSolSinyal{
+	background-image: url(:/res/solSinyal.png);
+	background-color:transparent;
+}
+
+#btnSolSinyal:hover{
+	background-image: url(:/res/solSinyalHovered.png);
+	background-color:transparent;
+}
+
+
+#btnDortlu{
+	background-image: url(:/res/dortlu.png);
+	background-color:transparent;
+}
+
+#btnDortlu:hover{
+	background-image: url(:/res/dortluHovered.png);
+	background-color:transparent;
+}
+
+#btnBackCam{
+	background-image: url(:/res/btnGeri.png);
+	background-color:transparent;
+}
+#btnBackCam:hover{
+	background-image: url(:/res/btnGeriSelected.png);
+	background-color:transparent;
+}
+
+#btnBataryaDurum{
+	background-image: url(:/res/btnBatteryStatistic.png);
+	background-color:transparent;
+}
+#btnBataryaDurum:hover{
+	background-image: url(:/res/btnBatteryStatisticSelected.png);
+	background-color:transparent;
+}
+
+#btnFar{
+	background-image: url(:/res/btnFar.png);
+	background-color:transparent;
+}
+#btnFar:hover{
+	background-image: url(:/res/btnFarSelected.png);
+	background-color:transparent;
+}
+#checkBox{
+	background-image: url(:/res/btnFarSelected.png);
+}
+
+#btnBluetoothSettings{
+	background-image: url(:/res/btnBluetooth.png);
+	background-color:transparent;
+}
+#btnBluetoothSettings:hover{
+	background-image: url(:/res/btnBluetoothSelected.png);
+	background-color:transparent;
+}
+
+#btn{
+	background-image: url(:/res/button.png);
+	background-color:transparent;
+}
+#btn:hover{
+	background-image: url(:/res/button-clicked.png);
+	background-color:transparent;
+}
+
+#btnSettings{
+	background-image: url(:/res/btnAyarlar.png);
+	background-color:transparent;
+}
+#btnSettings:hover{
+	background-image: url(:/res/btnAyarlarSelected.png);
+	background-color:transparent;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnBackCam">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>30</y>
+      <width>95</width>
+      <height>95</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="ledHizGosterge">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>190</y>
+      <width>211</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="digitCount">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sarj">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>390</y>
+      <width>801</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white</string>
+    </property>
+    <property name="text">
+     <string>97%</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnFar">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>170</y>
+      <width>95</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSagSinyal">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>380</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDortlu">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>360</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSolSinyal">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBataryaDurum">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>95</width>
+      <height>95</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBluetoothSettings">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>170</y>
+      <width>95</width>
+      <height>95</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSettings">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>380</y>
+      <width>95</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="Ui_klavye" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>240</y>
+      <width>800</width>
+      <height>240</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="ClickableLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>30</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Ui_klavye</class>
+   <extends>QWidget</extends>
+   <header>ui/klavyeX</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ClickableLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>ClickableLineEdit.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

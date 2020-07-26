@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Park_Pilot</class>
+ <widget class="QWidget" name="Park_Pilot">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>200</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#bg{
+	border: 2px solid white;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+#car{
+	border-image: url(:/res/parkpilot/aracUsttenMavi.png) 0 0 0 0 stretch stretch;
+}
+#sol1{
+	border-image: url(:/res/parkpilot/sol1.png) 0 0 0 0 stretch stretch;
+}
+#sol2{
+	border-image: url(:/res/parkpilot/sol2.png) 0 0 0 0 stretch stretch;
+}
+#sol3{
+	border-image: url(:/res/parkpilot/sol3.png) 0 0 0 0 stretch stretch;
+}
+#sol4{
+	border-image: url(:/res/parkpilot/sol4.png) 0 0 0 0 stretch stretch;
+}
+#sol5{
+	border-image: url(:/res/parkpilot/sol5.png) 0 0 0 0 stretch stretch;
+}
+
+#sag1{
+	border-image: url(:/res/parkpilot/sag1.png) 0 0 0 0 stretch stretch;
+}
+#sag2{
+	border-image: url(:/res/parkpilot/sag2.png) 0 0 0 0 stretch stretch;
+}
+#sag3{
+	border-image: url(:/res/parkpilot/sag3.png) 0 0 0 0 stretch stretch;
+}
+#sag4{
+	border-image: url(:/res/parkpilot/sag4.png) 0 0 0 0 stretch stretch;
+}
+#sag5{
+	border-image: url(:/res/parkpilot/sag5.png) 0 0 0 0 stretch stretch;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="sol1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>360</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sol2">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>370</y>
+     <width>75</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sol3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sol4">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>390</y>
+     <width>85</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sol5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sag1">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>360</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sag2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>370</y>
+     <width>75</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sag3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>380</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sag4">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>390</y>
+     <width>85</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sag5">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>400</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="car">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>160</width>
+     <height>350</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>200</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

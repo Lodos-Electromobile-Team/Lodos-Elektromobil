@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyserial = "*"
+numpy = "*"
+opencv-python = "*"
+qimage2ndarray = "==1.8.3"
+pyqtgraph = "*"
+pyqt5 = "*"
+pybluez = "*"
+speechrecognition = "*"
+pyaudio = "*"
+pyqtlet = "*"
+pynput = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.8"
