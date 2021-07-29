@@ -8,14 +8,12 @@ import Serial
 import MainWindow
 
 class Application(Thread.Worker):
-    main = None 
     def __init__(self):
         app = QApplication([])
         serial= Serial.Serial()
-        print(Application.main)
-        if Application.main == None:
-            Application.main = MainWindow.MainWindow()
-            Application.main.show()
+        
+        Application.main = MainWindow.MainWindow()
+        Application.main.show()
 
         app.exec_()
 

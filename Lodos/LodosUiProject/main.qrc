@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/main/alert.png</file>
+        <file>res/main/Background.png</file>
+        <file>res/main/Elips_1.png</file>
+        <file>res/main/far.png</file>
+        <file>res/main/horn.png</file>
+        <file>res/main/Left_Bar.png</file>
+        <file>res/main/lodos-50x50.png</file>
+        <file>res/main/Main_bar.png</file>
+        <file>res/main/Right_Bar.png</file>
+        <file>res/main/signal.png</file>
+        <file>res/main/silecek.png</file>
+        <file>res/main/ust_line.png</file>
+        <file>res/main/bg.png</file>
+    </qresource>
+</RCC>

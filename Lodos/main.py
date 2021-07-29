@@ -168,7 +168,6 @@ class MainWindow(QtWidgets.QMainWindow, Main_Window.Ui_MainWindow):
         if mySerial.serialPort.isOpen():
             mySerial.serialPort.write(mesaj.encode())
         else:
-
             print("Seri Port Bağlı Değil.")
 
     def serialConnect(self):
@@ -428,7 +427,6 @@ class ThreadClass(QtCore.QThread):
                     self.data[i].append(value)
                 # print(self.data[0][-1])
                 self.updateUiSignal.emit(self.data[0][-1])
-                self.updateWheelStatus.emit(self.data[1][-1])
 
 
 

@@ -19,6 +19,7 @@ SOURCES += \
         parkpilot.cpp
 
 RESOURCES += qml.qrc \
+    main.qrc \
     parkpilot.qrc \
     res.qrc
 
@@ -40,6 +41,7 @@ FORMS += \
     Back_Camera.ui \
     Battery_Status.ui \
     Bluetooth_Settings.ui \
+    Main.ui \
     Main_Window.ui \
     klavye.ui \
     mainwindow.ui.ui \

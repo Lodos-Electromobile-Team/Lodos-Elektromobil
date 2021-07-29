@@ -8,4 +8,5 @@ for i in LodosUiProject/*.ui; do
     rm $filepath
 done
 pyrcc5 LodosUiProject/res.qrc -o ui/res_rc.py
+pyrcc5 LodosUiProject/main.qrc -o ui/main_rc.py
 pyrcc5 LodosUiProject/parkpilot.qrc -o ui/parkpilot_rc.py

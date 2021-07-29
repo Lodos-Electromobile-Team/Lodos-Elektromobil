@@ -26,5 +26,6 @@
         <file>res/btnBatteryStatisticSelected.png</file>
         <file>res/69-694521_transparent-blur-png-transparent-background-transparent-blur-text.png</file>
         <file>res/blur-bg.png</file>
+        <file>res/gd.png</file>
     </qresource>
 </RCC>
